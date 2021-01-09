@@ -10,6 +10,8 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: x-large;
   text-align: center;
+  color: #f4a7b3;
+  font-weight:bold;
 }
 
 .vll {
