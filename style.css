@@ -17,6 +17,7 @@ body {
 .vll {
     position: absolute;
     background-color: #f4a7b3;
+    background: rgb(244, 167, 179, 0.7);
     width: 6px;
     top: 1px;
     bottom: 0px;
@@ -48,14 +49,20 @@ body {
 }
 
 .hl {
-  display: block;
-  height: 1px;
+  position: absolute;
+  height: 6px;
   border: 0;
-  border-top: 6px solid #f4a7b3;
+  /* border-top: 6px solid #f4a7b3; */
   padding: 0;
   width: 699px;
   margin-top: -50px;
   margin-left: 53px;
+  background-color: #f4a7b3;
+  background: rgb(244, 167, 179, 0.7);
+}
+
+.bold{
+  font-weight: bold;
 }
 
 .summary {
@@ -68,8 +75,51 @@ body {
   margin: 20px;
   font-family: "Courier New", Courier, monospace;
   margin-left: 200px;
-  margin-top: -60px;
+  margin-top: -50px;
   font-size: large;
+}
+
+.summary h2 {
+  margin-left: 300px;
+}
+
+.hll {
+  position: absolute;
+  height: 6px;
+  border: 0;
+  /* border-top: 6px solid #f4a7b3; */
+  padding: 0;
+  width: 699px;
+  margin-top: -50px;
+  margin-left: 53px;
+  background-color: #f4a7b3;
+  background: rgb(244, 167, 179, 0.7);
+}
+
+.hl2 {
+  position: absolute;
+  height: 6px;
+  border: 0;
+  /* border-top: 6px solid #f4a7b3; */
+  padding: 0;
+  width: 699px;
+  margin-top: -50px;
+  margin-left: 753px;
+  background-color: #f4a7b3;
+  background: rgb(244, 167, 179, 0.7);
+}
+
+.hl3 {
+  position: absolute;
+  height: 6px;
+  border: 0;
+  /* border-top: 6px solid #f4a7b3; */
+  padding: 0;
+  width: 699px;
+  margin-top: -350px;
+  margin-left: 53px;
+  background-color: #f4a7b3;
+  background: rgb(244, 167, 179, 0.7);
 }
 
 .skills {
@@ -81,6 +131,12 @@ body {
   font-family: "Courier New", Courier, monospace;
   margin-left: 200px;
   font-size: large;
+  margin-top: 60px;
+}
+
+.skills h2 {
+  margin-left: 300px;
+  text-align: left;
 }
 
 .education {
@@ -92,7 +148,7 @@ body {
   margin: 20px;
   font-family: "Courier New", Courier, monospace;
   margin-left: 760px;
-  margin-top: -575px;
+  margin-top: -550px;
   font-size: large;
 }
 
@@ -105,7 +161,7 @@ body {
   margin: 20px;
   font-family: "Courier New", Courier, monospace;
   margin-left: 780px;
-  margin-top: 10px;
+  margin-top: -450px;
   font-size: large;
 }
 
@@ -118,33 +174,16 @@ body {
   margin: 20px;
   font-family: "Courier New", Courier, monospace;
   display: block;
-  margin-left: auto;
+  margin-left: 200px;
   margin-right: auto;
   font-size: large;
+  margin-top: -400px;
 }
 
-.languages {
-  /* background-color: #a7f4e8; */
-  font-family: "Courier New", Courier, monospace;
-  width: 500px;
-  /* border: 5px solid black; */
-  padding: 50px;
-  margin: 20px;
-  font-family: "Courier New", Courier, monospace;
-  margin-left: 200px;
-  margin-top: -610px;
-  font-size: large;
+.projects h2 {
+  margin-left: 300px;
 }
 
-.references {
-  /* background-color: #a7f4e8; */
-  font-family: "Courier New", Courier, monospace;
-  width: 500px;
-  /* border: 5px solid black; */
-  padding: 50px;
-  margin: 20px;
-  font-family: "Courier New", Courier, monospace;
-  margin-bottom: 250px;
-  margin-left: 200px;
-  font-size: large;
+.icons{
+  bottom: 0%;
 }
