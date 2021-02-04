@@ -1,3 +1,3 @@
 # meganburns.github.io
-Resume site
+Resume site under construction
 https://meganburns.github.io/
